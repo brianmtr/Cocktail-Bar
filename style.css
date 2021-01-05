@@ -34,6 +34,9 @@ nav{
     text-decoration: none;
     display: inline;
 }
+.navbar ul li a:hover{
+    color: rgb(170, 14, 14);
+}
 
 .navbar img{
     position: relative;
@@ -166,11 +169,11 @@ width: 65%;
   .slides::-webkit-scrollbar {
     width: 10px;
     height: 20px;
+    
   }
   .slides::-webkit-scrollbar-thumb {
     background-color: rgb(170, 14, 14);
     border-radius: 10px;
-    
   }
 
   .slides > div {
@@ -198,8 +201,8 @@ width: 65%;
 }
 
 .first{
-    margin-left: 3 5%;
-   
+    margin: 25% 10% 10% 10%;
+    color: #fff;
 }
 
 .beforeFooter{
